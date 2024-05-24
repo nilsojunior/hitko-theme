@@ -85,6 +85,8 @@
             "list.focusAndSelectionOutline": "#00000000",
             "menubar.selectionBackground": "#00000000",
             "panelTitle.activeBorder": "#00000000",
+            "toolbar.activeBackground": "#00000000",
+            "toolbar.hoverBackground": "#00000000",
 
             // Git
             "gitDecoration.addedResourceForeground": "#50d49b",
