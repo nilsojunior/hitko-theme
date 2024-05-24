@@ -76,6 +76,7 @@
             "notificationCenter.border": "#000000",
             "editorSuggestWidget.border": "#000000",
             "editorHoverWidget.border": "#000000",
+            "focusBorder": "#000000",
 
             // Transparent
             "editorOverviewRuler.border": "#00000000",
@@ -87,6 +88,7 @@
             "panelTitle.activeBorder": "#00000000",
             "toolbar.activeBackground": "#00000000",
             "toolbar.hoverBackground": "#00000000",
+            "sideBarSectionHeader.background": "#00000000",
 
             // Git
             "gitDecoration.addedResourceForeground": "#50d49b",
