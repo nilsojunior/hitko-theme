@@ -1,0 +1,21 @@
+{
+  "name": "hitko-theme",
+  "displayName": "Hitko Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hitko Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hitko Theme-color-theme.json"
+      }
+    ]
+  }
+}
