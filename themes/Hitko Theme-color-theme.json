@@ -1,7 +1,6 @@
 {
       "name": "Hitko Dark",
       "type": "dark",
-      "semanticHighlighting": true,
       "colors": {
             // White
             "foreground": "#ffffff",
