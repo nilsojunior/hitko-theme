@@ -1,11 +1,21 @@
 <div align="center">
 
-<img src="icon.jpeg" width="150"/>
+<img src="icon.jpeg" width="180"/>
 
-## Hitko Theme
+# Hitko Theme
+
+A minimal theme for VS Code.
+
+![preview](preview.png)
 
 </div>
 
+## Installation
+
+1. Install theme from the [Marketplace]()
+2. Go to `File > Preferences > Color Theme`
+3. Select `Hitko Theme`
+
 ## Issues
 
-If you encounter any issues with this extension, please feel free to [open an issue](https://github.com/Nilsojunior/hitko-dark/issues) on GitHub.
+Please [file an issue](https://github.com/Nilsojunior/hitko-theme/issues) on GitHub if you encounter any problems.

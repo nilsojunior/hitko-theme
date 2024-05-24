@@ -1,7 +1,7 @@
 {
       "name": "hitko-theme",
       "displayName": "Hitko Theme",
-      "description": "A minimal theme for VS Code",
+      "description": "A minimal theme for VS Code.",
       "version": "0.0.1",
       "publisher": "Hitko",
       "icon": "icon.jpeg",
@@ -9,6 +9,13 @@
             "type": "git",
             "url": "https://github.com/Nilsojunior/hitko-theme.git"
       },
+      "keywords": [
+            "theme",
+            "dark theme",
+            "hitko",
+            "hitko theme",
+            "minimal"
+      ],
       "engines": {
             "vscode": "^1.89.0"
       },
