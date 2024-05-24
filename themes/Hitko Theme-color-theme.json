@@ -20,6 +20,7 @@
             "editorSuggestWidget.highlightForeground": "#ffffff",
             "editorSuggestWidget.focusHighlightForeground": "#ffffff",
             "editorHoverWidget.foreground": "#ffffff",
+            "menubar.selectionForeground": "#ffffff",
 
             // Light Gray
             "sideBar.foreground": "#727272",
