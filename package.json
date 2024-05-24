@@ -1,21 +1,27 @@
 {
-  "name": "hitko-theme",
-  "displayName": "Hitko Theme",
-  "description": "",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.89.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Hitko Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Hitko Theme-color-theme.json"
+      "name": "hitko-theme",
+      "displayName": "Hitko Theme",
+      "description": "A minimal theme for VS Code",
+      "version": "0.0.1",
+      "publisher": "Hitko",
+      "icon": "icon.jpeg",
+      "repository": {
+            "type": "git",
+            "url": "https://github.com/Nilsojunior/hitko-theme.git"
+      },
+      "engines": {
+            "vscode": "^1.89.0"
+      },
+      "categories": [
+            "Themes"
+      ],
+      "contributes": {
+            "themes": [
+                  {
+                        "label": "Hitko Theme",
+                        "uiTheme": "vs-dark",
+                        "path": "./themes/Hitko Theme-color-theme.json"
+                  }
+            ]
       }
-    ]
-  }
 }
