@@ -117,7 +117,11 @@
             },
             {
                   "name": "Orange",
-                  "scope": ["entity.name.function", "entity"],
+                  "scope": [
+                        "entity.name.function",
+                        "entity",
+                        "variable.other.readwrite"
+                  ],
                   "settings": {
                         "foreground": "#ffab70"
                   }
@@ -148,7 +152,8 @@
                   "scope": [
                         "support",
                         "meta.jsx.children.tsx",
-                        "variable.other.readwrite.alias"
+                        "variable.other.readwrite.alias",
+                        "variable.other.object"
                   ],
                   "settings": {
                         "foreground": "#bdbdbd"
@@ -158,7 +163,6 @@
                   "name": "Cyan",
                   "scope": [
                         "support.class",
-                        "variable.other.object",
                         "variable.other.constant",
                         "constant.language"
                   ],
