@@ -27,7 +27,12 @@
                   {
                         "label": "Hitko Theme",
                         "uiTheme": "vs-dark",
-                        "path": "./themes/Hitko Theme-color-theme.json"
+                        "path": "./themes/hitko-theme.json"
+                  },
+                  {
+                        "label": "Hitko Theme (Gray Tabs)",
+                        "uiTheme": "vs-dark",
+                        "path": "./themes/hitko-theme-gray-tabs.json"
                   }
             ]
       }

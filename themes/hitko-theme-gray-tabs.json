@@ -1,0 +1,291 @@
+{
+      "name": "Hitko Dark",
+      "type": "dark",
+      "colors": {
+            "color_1": "White",
+            "foreground": "#ffffff",
+            "progressBar.background": "#ffffff",
+            "editorLineNumber.activeForeground": "#ffffff",
+            "sideBarSectionHeader.foreground": "#ffffff",
+            "sideBarTitle.foreground": "#ffffff",
+            "list.inactiveSelectionForeground": "#ffffff",
+            "list.hoverForeground": "#ffffff",
+            "panelTitle.activeForeground": "#ffffff",
+            "terminal.foreground": "#ffffff",
+            "tab.activeForeground": "#ffffff",
+            "tab.hoverForeground": "#ffffff",
+            "list.highlightForeground": "#ffffff",
+            "notifications.foreground": "#ffffff",
+            "notificationCenterHeader.foreground": "#ffffff",
+            "editorSuggestWidget.highlightForeground": "#ffffff",
+            "editorSuggestWidget.focusHighlightForeground": "#ffffff",
+            "editorHoverWidget.foreground": "#ffffff",
+            "menubar.selectionForeground": "#ffffff",
+
+            "color_2": "Light Gray",
+            "sideBar.foreground": "#727272",
+            "titleBar.activeForeground": "#727272",
+            "titleBar.inactiveForeground": "#727272",
+            "menu.foreground": "#727272",
+            "panelTitle.inactiveForeground": "#727272",
+            "tab.inactiveForeground": "#727272",
+            "editorWidget.foreground": "#727272",
+            "input.placeholderForeground": "#727272",
+            "pickerGroup.foreground": "#727272",
+            "editorSuggestWidget.foreground": "#727272",
+
+            "color_3": "Gray",
+            "editorLineNumber.foreground": "#303030",
+            "editorIndentGuide.activeBackground1": "#303030",
+
+            "color_4": "Dark Gray",
+            "editor.background": "#0f0f0f",
+            "input.background": "#0f0f0f",
+            "editorWidget.background": "#0f0f0f",
+            "editorSuggestWidget.background": "#0f0f0f",
+            "editorHoverWidget.background": "#0f0f0f",
+            "tab.activeBackground": "#0f0f0f",
+            "tab.inactiveBackground": "#0f0f0f",
+            "editorGroupHeader.tabsBackground": "#0f0f0f",
+
+            "color_5": "Darker Gray",
+            "sideBar.background": "#0a0a0a",
+            "titleBar.activeBackground": "#0a0a0a",
+            "titleBar.inactiveBackground": "#0a0a0a",
+            "menu.background": "#0a0a0a",
+            "panel.background": "#0a0a0a",
+            "notifications.background": "#0a0a0a",
+            "notificationCenterHeader.background": "#0a0a0a",
+
+            "color_6": "Black",
+            "editorGroup.border": "#000000",
+            "sideBar.border": "#000000",
+            "editorIndentGuide.background1": "#000000",
+            "editorRuler.foreground": "#000000",
+            "tree.indentGuidesStroke": "#000000",
+            "titleBar.border": "#000000",
+            "menu.border": "#000000",
+            "panel.border": "#000000",
+            "terminal.border": "#000000",
+            "widget.shadow": "#000000",
+            "notificationToast.border": "#000000",
+            "notifications.border": "#000000",
+            "notificationCenter.border": "#000000",
+            "editorSuggestWidget.border": "#000000",
+            "editorHoverWidget.border": "#000000",
+            "focusBorder": "#000000",
+
+            "color_7": "Transparent",
+            "editorOverviewRuler.border": "#00000000",
+            "list.inactiveSelectionBackground": "#00000000",
+            "list.activeSelectionBackground": "#00000000",
+            "list.hoverBackground": "#00000000",
+            "list.focusAndSelectionOutline": "#00000000",
+            "menubar.selectionBackground": "#00000000",
+            "panelTitle.activeBorder": "#00000000",
+            "toolbar.activeBackground": "#00000000",
+            "toolbar.hoverBackground": "#00000000",
+            "sideBarSectionHeader.background": "#00000000",
+            "tab.border": "#00000000",
+            "scrollbar.shadow": "#00000000",
+
+            "git_colors": "Git Colors",
+            "gitDecoration.addedResourceForeground": "#50d49b",
+            "gitDecoration.untrackedResourceForeground": "#50d49b",
+            "gitDecoration.modifiedResourceForeground": "#ffab70",
+            "gitDecoration.stageModifiedResourceForeground": "#ffab70",
+            "gitDecoration.deletedResourceForeground": "#f97583",
+            "gitDecoration.stageDeletedResourceForeground": "#f97583",
+            "gitDecoration.conflictingResourceForeground": "#d581e0",
+            "gitDecoration.submoduleResourceForeground": "#55bbff",
+            "gitDecoration.ignoredResourceForeground": "#303030"
+      },
+      "tokenColors": [
+            {
+                  "name": "White",
+                  "scope": [
+                        "variable.object.property",
+                        "keyword.operator",
+                        "meta.tag",
+                        "storage.type.function.arrow",
+                        "support.type.property-name"
+                  ],
+                  "settings": {
+                        "foreground": "#ffffff"
+                  }
+            },
+            {
+                  "name": "Orange",
+                  "scope": [
+                        "entity.name.function",
+                        "entity",
+                        "variable.other.readwrite"
+                  ],
+                  "settings": {
+                        "foreground": "#ffab70"
+                  }
+            },
+            {
+                  "name": "Blue",
+                  "scope": ["keyword", "storage"],
+                  "settings": {
+                        "foreground": "#55bbff"
+                  }
+            },
+            {
+                  "name": "Red",
+                  "scope": ["entity.name.tag", "string"],
+                  "settings": {
+                        "foreground": "#f97583"
+                  }
+            },
+            {
+                  "name": "Purple",
+                  "scope": "entity.other",
+                  "settings": {
+                        "foreground": "#d581e0"
+                  }
+            },
+            {
+                  "name": "Gray",
+                  "scope": [
+                        "support",
+                        "meta.jsx.children.tsx",
+                        "variable.other.readwrite.alias",
+                        "variable.other.object"
+                  ],
+                  "settings": {
+                        "foreground": "#bdbdbd"
+                  }
+            },
+            {
+                  "name": "Cyan",
+                  "scope": [
+                        "support.class",
+                        "variable.other.constant",
+                        "constant.language"
+                  ],
+                  "settings": {
+                        "foreground": "#81e6df"
+                  }
+            },
+            {
+                  "name": "Comments",
+                  "scope": "comment",
+                  "settings": {
+                        "foreground": "#6d6d6d"
+                  }
+            }
+      ],
+      "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                  {
+                        "scope": [
+                              "comment",
+                              "comment.block",
+                              "comment.block.documentation",
+                              "comment.line",
+                              "constant",
+                              "constant.character",
+                              "constant.character.escape",
+                              "constant.numeric",
+                              "constant.numeric.integer",
+                              "constant.numeric.float",
+                              "constant.numeric.hex",
+                              "constant.numeric.octal",
+                              "constant.other",
+                              "constant.regexp",
+                              "constant.rgb-value",
+                              "emphasis",
+                              "entity",
+                              "entity.name",
+                              "entity.name.class",
+                              "entity.name.function",
+                              "entity.name.method",
+                              "entity.name.section",
+                              "entity.name.selector",
+                              "entity.name.tag",
+                              "entity.name.type",
+                              "entity.other",
+                              "entity.other.attribute-name",
+                              "entity.other.inherited-class",
+                              "invalid",
+                              "invalid.deprecated",
+                              "invalid.illegal",
+                              "keyword",
+                              "keyword.control",
+                              "keyword.operator",
+                              "keyword.operator.new",
+                              "keyword.operator.assignment",
+                              "keyword.operator.arithmetic",
+                              "keyword.operator.logical",
+                              "keyword.other",
+                              "markup",
+                              "markup.bold",
+                              "markup.changed",
+                              "markup.deleted",
+                              "markup.heading",
+                              "markup.inline.raw",
+                              "markup.inserted",
+                              "markup.italic",
+                              "markup.list",
+                              "markup.list.numbered",
+                              "markup.list.unnumbered",
+                              "markup.other",
+                              "markup.quote",
+                              "markup.raw",
+                              "markup.underline",
+                              "markup.underline.link",
+                              "meta",
+                              "meta.block",
+                              "meta.cast",
+                              "meta.class",
+                              "meta.function",
+                              "meta.function-call",
+                              "meta.preprocessor",
+                              "meta.return-type",
+                              "meta.selector",
+                              "meta.tag",
+                              "meta.type.annotation",
+                              "meta.type",
+                              "punctuation.definition.string.begin",
+                              "punctuation.definition.string.end",
+                              "punctuation.separator",
+                              "punctuation.separator.continuation",
+                              "punctuation.terminator",
+                              "storage",
+                              "storage.modifier",
+                              "storage.type",
+                              "string",
+                              "string.interpolated",
+                              "string.other",
+                              "string.quoted",
+                              "string.quoted.double",
+                              "string.quoted.other",
+                              "string.quoted.single",
+                              "string.quoted.triple",
+                              "string.regexp",
+                              "string.unquoted",
+                              "strong",
+                              "support",
+                              "support.class",
+                              "support.constant",
+                              "support.function",
+                              "support.other",
+                              "support.type",
+                              "support.type.property-name",
+                              "support.variable",
+                              "variable",
+                              "variable.language",
+                              "variable.name",
+                              "variable.other",
+                              "variable.other.readwrite",
+                              "variable.parameter"
+                        ],
+                        "settings": {
+                              "fontStyle": ""
+                        }
+                  }
+            ]
+      }
+}

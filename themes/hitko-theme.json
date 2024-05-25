@@ -2,7 +2,7 @@
       "name": "Hitko Dark",
       "type": "dark",
       "colors": {
-            // White
+            "color_1": "White",
             "foreground": "#ffffff",
             "progressBar.background": "#ffffff",
             "editorLineNumber.activeForeground": "#ffffff",
@@ -22,7 +22,7 @@
             "editorHoverWidget.foreground": "#ffffff",
             "menubar.selectionForeground": "#ffffff",
 
-            // Light Gray
+            "color_2": "Light Gray",
             "sideBar.foreground": "#727272",
             "titleBar.activeForeground": "#727272",
             "titleBar.inactiveForeground": "#727272",
@@ -34,18 +34,18 @@
             "pickerGroup.foreground": "#727272",
             "editorSuggestWidget.foreground": "#727272",
 
-            // Gray
+            "color_3": "Gray",
             "editorLineNumber.foreground": "#303030",
             "editorIndentGuide.activeBackground1": "#303030",
 
-            // Dark Gray
+            "color_4": "Dark Gray",
             "editor.background": "#0f0f0f",
             "input.background": "#0f0f0f",
             "editorWidget.background": "#0f0f0f",
             "editorSuggestWidget.background": "#0f0f0f",
             "editorHoverWidget.background": "#0f0f0f",
 
-            // Darker Gray
+            "color_5": "Darker Gray",
             "sideBar.background": "#0a0a0a",
             "titleBar.activeBackground": "#0a0a0a",
             "titleBar.inactiveBackground": "#0a0a0a",
@@ -57,7 +57,7 @@
             "notifications.background": "#0a0a0a",
             "notificationCenterHeader.background": "#0a0a0a",
 
-            // Black
+            "color_6": "Black",
             "editorGroup.border": "#000000",
             "scrollbar.shadow": "#000000",
             "sideBar.border": "#000000",
@@ -78,7 +78,7 @@
             "editorHoverWidget.border": "#000000",
             "focusBorder": "#000000",
 
-            // Transparent
+            "color_7": "Transparent",
             "editorOverviewRuler.border": "#00000000",
             "list.inactiveSelectionBackground": "#00000000",
             "list.activeSelectionBackground": "#00000000",
@@ -90,7 +90,7 @@
             "toolbar.hoverBackground": "#00000000",
             "sideBarSectionHeader.background": "#00000000",
 
-            // Git
+            "git_colors": "Git Colors",
             "gitDecoration.addedResourceForeground": "#50d49b",
             "gitDecoration.untrackedResourceForeground": "#50d49b",
             "gitDecoration.modifiedResourceForeground": "#ffab70",
