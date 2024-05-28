@@ -104,11 +104,17 @@
     {
       "name": "White",
       "scope": [
-        "variable.object.property",
+        "punctuation.definition.tag",
+        "punctuation.terminator.statement",
+        "punctuation.separator.key-value",
+        "punctuation.terminator.statement",
+        "punctuation.accessor",
+        "punctuation.separator.comma",
         "keyword.operator",
-        "meta.tag",
+        "variable.object.property",
+        "meta.embedded.expression",
+        "constant.numeric.decimal",
         "storage.type.function.arrow",
-        "support.type.property-name",
         "entity.name.function.operator"
       ],
       "settings": {
@@ -117,28 +123,42 @@
     },
     {
       "name": "Orange",
-      "scope": ["entity.name.function", "entity"],
+      "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "meta.export.default"
+      ],
       "settings": {
         "foreground": "#ffab70"
       }
     },
     {
       "name": "Blue",
-      "scope": ["keyword", "storage"],
+      "scope": [
+        "keyword.control.import",
+        "keyword.control",
+        "storage.type",
+        "meta.using-namespace"
+      ],
       "settings": {
         "foreground": "#55bbff"
       }
     },
     {
       "name": "Red",
-      "scope": ["entity.name.tag", "string"],
+      "scope": [
+        "string.quoted.double",
+        "string.quoted.other",
+        "string.quoted.single",
+        "entity.name.tag"
+      ],
       "settings": {
         "foreground": "#f97583"
       }
     },
     {
       "name": "Purple",
-      "scope": "entity.other",
+      "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#d581e0"
       }
@@ -146,10 +166,14 @@
     {
       "name": "Gray",
       "scope": [
-        "support",
-        "meta.jsx.children.tsx",
+        "variable.parameter",
         "variable.other.readwrite.alias",
-        "variable.other.object"
+        "variable.other.object",
+        "meta.tag.without-attributes",
+        "meta.object-literal.key",
+        "meta.body.function.definition",
+        "support.type.primitive",
+        "entity.name.namespace"
       ],
       "settings": {
         "foreground": "#bdbdbd"
@@ -157,11 +181,7 @@
     },
     {
       "name": "Cyan",
-      "scope": [
-        "support.class",
-        "variable.other.constant",
-        "constant.language"
-      ],
+      "scope": ["support.class.component", "variable.other.constant"],
       "settings": {
         "foreground": "#81e6df"
       }
