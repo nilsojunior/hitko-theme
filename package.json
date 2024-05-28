@@ -1,39 +1,39 @@
 {
-      "name": "hitko-theme",
-      "displayName": "Hitko Theme",
-      "description": "A minimal theme for VS Code.",
-      "version": "1.0.0",
-      "publisher": "Hitko",
-      "icon": "icon.jpeg",
-      "repository": {
-            "type": "git",
-            "url": "https://github.com/Nilsojunior/hitko-theme.git"
+  "name": "hitko-theme",
+  "displayName": "Hitko Theme",
+  "description": "A minimal theme for VS Code.",
+  "version": "1.0.0",
+  "publisher": "Hitko",
+  "icon": "icon.jpeg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nilsojunior/hitko-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "hitko",
+    "hitko theme",
+    "minimal"
+  ],
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hitko Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hitko-theme.json"
       },
-      "keywords": [
-            "theme",
-            "dark theme",
-            "hitko",
-            "hitko theme",
-            "minimal"
-      ],
-      "engines": {
-            "vscode": "^1.89.0"
-      },
-      "categories": [
-            "Themes"
-      ],
-      "contributes": {
-            "themes": [
-                  {
-                        "label": "Hitko Theme",
-                        "uiTheme": "vs-dark",
-                        "path": "./themes/hitko-theme.json"
-                  },
-                  {
-                        "label": "Hitko Theme (Gray Tabs)",
-                        "uiTheme": "vs-dark",
-                        "path": "./themes/hitko-theme-gray-tabs.json"
-                  }
-            ]
+      {
+        "label": "Hitko Theme (Gray Tabs)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hitko-theme-gray-tabs.json"
       }
+    ]
+  }
 }
