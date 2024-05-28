@@ -4,7 +4,7 @@
   "colors": {
     "color_1": "White",
     "foreground": "#ffffff",
-    "editor.foreground": "#",
+    "editor.foreground": "#ffffff",
     "progressBar.background": "#ffffff",
     "editorLineNumber.activeForeground": "#ffffff",
     "sideBarSectionHeader.foreground": "#ffffff",
@@ -116,6 +116,7 @@
         "keyword.operator.comparison",
         "keyword.operator.arithmetic",
         "keyword.operator.logical",
+        "keyword.operator.type",
         "variable.object.property",
         "meta.embedded.expression",
         "constant.numeric.decimal",
@@ -186,6 +187,7 @@
         "meta.body.function.definition",
         "meta.body.class",
         "support.type.primitive",
+        "support.type.property-name",
         "entity.name.namespace"
       ],
       "settings": {
