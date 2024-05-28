@@ -4,6 +4,7 @@
   "colors": {
     "color_1": "White",
     "foreground": "#ffffff",
+    "editor.foreground": "#",
     "progressBar.background": "#ffffff",
     "editorLineNumber.activeForeground": "#ffffff",
     "sideBarSectionHeader.foreground": "#ffffff",
@@ -106,15 +107,20 @@
       "scope": [
         "punctuation.definition.tag",
         "punctuation.terminator.statement",
-        "punctuation.separator.key-value",
         "punctuation.terminator.statement",
         "punctuation.accessor",
-        "punctuation.separator.comma",
-        "keyword.operator",
+        "punctuation.separator",
+        "keyword.operator.increment",
+        "keyword.operator.decrement",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.arithmetic",
+        "keyword.operator.logical",
         "variable.object.property",
         "meta.embedded.expression",
         "constant.numeric.decimal",
         "storage.type.function.arrow",
+        "storage.modifier.pointer",
         "entity.name.function.operator"
       ],
       "settings": {
@@ -124,9 +130,9 @@
     {
       "name": "Orange",
       "scope": [
-        "entity.name.function",
-        "entity.name.type",
-        "meta.export.default"
+        "support.class.component",
+        "variable.other.constant",
+        "constant.language"
       ],
       "settings": {
         "foreground": "#ffab70"
@@ -137,6 +143,7 @@
       "scope": [
         "keyword.control.import",
         "keyword.control",
+        "keyword.operator.delete",
         "storage.type",
         "meta.using-namespace"
       ],
@@ -158,7 +165,12 @@
     },
     {
       "name": "Purple",
-      "scope": "entity.other.attribute-name",
+      "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "entity.other.attribute-name",
+        "meta.export.default"
+      ],
       "settings": {
         "foreground": "#d581e0"
       }
@@ -172,18 +184,12 @@
         "meta.tag.without-attributes",
         "meta.object-literal.key",
         "meta.body.function.definition",
+        "meta.body.class",
         "support.type.primitive",
         "entity.name.namespace"
       ],
       "settings": {
         "foreground": "#bdbdbd"
-      }
-    },
-    {
-      "name": "Cyan",
-      "scope": ["support.class.component", "variable.other.constant"],
-      "settings": {
-        "foreground": "#81e6df"
       }
     },
     {

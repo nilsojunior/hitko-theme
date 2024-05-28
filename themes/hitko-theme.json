@@ -105,11 +105,23 @@
     {
       "name": "White",
       "scope": [
+        "punctuation.definition.tag",
+        "punctuation.terminator.statement",
+        "punctuation.terminator.statement",
+        "punctuation.accessor",
+        "punctuation.separator",
+        "keyword.operator.increment",
+        "keyword.operator.decrement",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.arithmetic",
+        "keyword.operator.logical",
         "variable.object.property",
-        "keyword.operator",
-        "meta.tag",
+        "meta.embedded.expression",
+        "constant.numeric.decimal",
         "storage.type.function.arrow",
-        "support.type.property-name"
+        "storage.modifier.pointer",
+        "entity.name.function.operator"
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -117,28 +129,48 @@
     },
     {
       "name": "Orange",
-      "scope": ["entity.name.function", "entity", "variable.other.readwrite"],
+      "scope": [
+        "support.class.component",
+        "variable.other.constant",
+        "constant.language"
+      ],
       "settings": {
         "foreground": "#ffab70"
       }
     },
     {
       "name": "Blue",
-      "scope": ["keyword", "storage"],
+      "scope": [
+        "keyword.control.import",
+        "keyword.control",
+        "keyword.operator.delete",
+        "storage.type",
+        "meta.using-namespace"
+      ],
       "settings": {
         "foreground": "#55bbff"
       }
     },
     {
       "name": "Red",
-      "scope": ["entity.name.tag", "string"],
+      "scope": [
+        "string.quoted.double",
+        "string.quoted.other",
+        "string.quoted.single",
+        "entity.name.tag"
+      ],
       "settings": {
         "foreground": "#f97583"
       }
     },
     {
       "name": "Purple",
-      "scope": "entity.other",
+      "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "entity.other.attribute-name",
+        "meta.export.default"
+      ],
       "settings": {
         "foreground": "#d581e0"
       }
@@ -146,24 +178,18 @@
     {
       "name": "Gray",
       "scope": [
-        "support",
-        "meta.jsx.children.tsx",
+        "variable.parameter",
         "variable.other.readwrite.alias",
-        "variable.other.object"
+        "variable.other.object",
+        "meta.tag.without-attributes",
+        "meta.object-literal.key",
+        "meta.body.function.definition",
+        "meta.body.class",
+        "support.type.primitive",
+        "entity.name.namespace"
       ],
       "settings": {
         "foreground": "#bdbdbd"
-      }
-    },
-    {
-      "name": "Cyan",
-      "scope": [
-        "support.class",
-        "variable.other.constant",
-        "constant.language"
-      ],
-      "settings": {
-        "foreground": "#81e6df"
       }
     },
     {
