@@ -119,10 +119,12 @@
         "keyword.operator.type",
         "variable.object.property",
         "meta.embedded.expression",
+        "meta.object-literal.key",
         "constant.numeric.decimal",
         "storage.type.function.arrow",
         "storage.modifier.pointer",
-        "entity.name.function.operator"
+        "entity.name.function.operator",
+        "entity.name.tag.yaml"
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -183,7 +185,6 @@
         "variable.other.readwrite.alias",
         "variable.other.object",
         "meta.tag.without-attributes",
-        "meta.object-literal.key",
         "meta.body.function.definition",
         "meta.body.class",
         "support.type.primitive",

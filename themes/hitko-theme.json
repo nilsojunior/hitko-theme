@@ -120,10 +120,12 @@
         "keyword.operator.type",
         "variable.object.property",
         "meta.embedded.expression",
+        "meta.object-literal.key",
         "constant.numeric.decimal",
         "storage.type.function.arrow",
         "storage.modifier.pointer",
-        "entity.name.function.operator"
+        "entity.name.function.operator",
+        "entity.name.tag.yaml"
       ],
       "settings": {
         "foreground": "#ffffff"
