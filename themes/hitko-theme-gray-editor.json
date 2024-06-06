@@ -118,6 +118,7 @@
         "keyword.operator.logical",
         "keyword.operator.type",
         "variable.object.property",
+        "variable.other.property",
         "meta.embedded.expression",
         "meta.object-literal.key",
         "constant.numeric.decimal",
@@ -137,6 +138,7 @@
       "scope": [
         "support.class.component",
         "variable.other.constant",
+        "variable.language.this",
         "constant.language",
         "string.other.link.title"
       ],
@@ -150,10 +152,13 @@
         "keyword.control.import",
         "keyword.control",
         "keyword.operator.delete",
+        "keyword.operator.bitwise",
         "storage.type",
+        "storage.modifier.reference",
         "meta.using-namespace",
         "entity.name.section",
-        "punctuation.definition.heading"
+        "punctuation.definition.heading",
+        "new"
       ],
       "settings": {
         "foreground": "#55bbff"
