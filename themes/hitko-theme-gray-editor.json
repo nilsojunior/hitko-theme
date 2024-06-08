@@ -129,7 +129,6 @@
       "scope": [
         "support.class.component",
         "variable.other.constant",
-        "variable.language.this",
         "constant.language",
         "string.other.link.title"
       ],
@@ -183,6 +182,7 @@
         "variable.parameter",
         "variable.other.readwrite.alias",
         "variable.other.object",
+        "variable.language.this",
         "meta.tag.without-attributes",
         "meta.body.function.definition",
         "meta.body.class",
