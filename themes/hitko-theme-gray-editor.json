@@ -95,7 +95,6 @@
   },
   "tokenColors": [
     {
-      "name": "White",
       "scope": [
         "punctuation.definition.tag",
         "punctuation.terminator.statement",
@@ -127,7 +126,6 @@
       }
     },
     {
-      "name": "Orange",
       "scope": [
         "support.class.component",
         "variable.other.constant",
@@ -136,17 +134,17 @@
         "string.other.link.title"
       ],
       "settings": {
-        "foreground": "#ffab70"
+        "foreground": "#ffc79f"
       }
     },
     {
-      "name": "Blue",
       "scope": [
         "keyword.control.import",
         "keyword.control",
         "keyword.operator.delete",
         "keyword.operator.bitwise",
         "storage.type",
+        "storage.modifier.specifier",
         "storage.modifier.reference",
         "meta.using-namespace",
         "entity.name.section",
@@ -154,11 +152,10 @@
         "new"
       ],
       "settings": {
-        "foreground": "#55bbff"
+        "foreground": "#9df8ff"
       }
     },
     {
-      "name": "Red",
       "scope": [
         "string.quoted.double",
         "string.quoted.other",
@@ -171,7 +168,6 @@
       }
     },
     {
-      "name": "Purple",
       "scope": [
         "entity.name.function",
         "entity.name.type",
@@ -179,11 +175,10 @@
         "meta.export.default"
       ],
       "settings": {
-        "foreground": "#d581e0"
+        "foreground": "#f5aaff"
       }
     },
     {
-      "name": "Gray",
       "scope": [
         "variable.parameter",
         "variable.other.readwrite.alias",
@@ -200,7 +195,6 @@
       }
     },
     {
-      "name": "Comments",
       "scope": "comment",
       "settings": {
         "foreground": "#6d6d6d"
