@@ -2,7 +2,7 @@
   "name": "Hitko Theme",
   "type": "dark",
   "colors": {
-    "color_1": "White",
+    // White
     "foreground": "#ffffff",
     "editor.foreground": "#ffffff",
     "progressBar.background": "#ffffff",
@@ -22,8 +22,7 @@
     "editorSuggestWidget.focusHighlightForeground": "#ffffff",
     "editorHoverWidget.foreground": "#ffffff",
     "menubar.selectionForeground": "#ffffff",
-
-    "color_2": "Light Gray",
+    // Light Gray
     "sideBar.foreground": "#727272",
     "titleBar.activeForeground": "#727272",
     "titleBar.inactiveForeground": "#727272",
@@ -34,18 +33,15 @@
     "input.placeholderForeground": "#727272",
     "pickerGroup.foreground": "#727272",
     "editorSuggestWidget.foreground": "#727272",
-
-    "color_3": "Gray",
+    // Gray
     "editorLineNumber.foreground": "#303030",
     "editorIndentGuide.activeBackground1": "#303030",
-
-    "color_4": "Dark Gray",
+    // Dark Gray
     "input.background": "#0f0f0f",
     "editorWidget.background": "#0f0f0f",
     "editorSuggestWidget.background": "#0f0f0f",
     "editorHoverWidget.background": "#0f0f0f",
-
-    "color_5": "Darker Gray",
+    // Darker Gray
     "editor.background": "#0a0a0a",
     "sideBar.background": "#0a0a0a",
     "titleBar.activeBackground": "#0a0a0a",
@@ -57,8 +53,7 @@
     "tab.activeBackground": "#0a0a0a",
     "tab.inactiveBackground": "#0a0a0a",
     "editorGroupHeader.tabsBackground": "#0a0a0a",
-
-    "color_6": "Transparent",
+    // Transparent
     "editorOverviewRuler.border": "#00000000",
     "list.inactiveSelectionBackground": "#00000000",
     "list.activeSelectionBackground": "#00000000",
@@ -71,7 +66,6 @@
     "sideBarSectionHeader.background": "#00000000",
     "tab.border": "#00000000",
     "scrollbar.shadow": "#00000000",
-
     "editorGroup.border": "#00000000",
     "sideBar.border": "#00000000",
     "editorIndentGuide.background1": "#00000000",
@@ -88,8 +82,7 @@
     "editorSuggestWidget.border": "#00000000",
     "editorHoverWidget.border": "#00000000",
     "focusBorder": "#00000000",
-
-    "git_colors": "Git Colors",
+    // Git Colors
     "gitDecoration.addedResourceForeground": "#50d49b",
     "gitDecoration.untrackedResourceForeground": "#50d49b",
     "gitDecoration.modifiedResourceForeground": "#50d2d4",
