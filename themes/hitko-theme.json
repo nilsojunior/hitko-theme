@@ -159,6 +159,7 @@
         "string.quoted.double",
         "string.quoted.other",
         "string.quoted.single",
+        "string.template",
         "entity.name.tag",
         "markup.underline.link"
       ],
@@ -171,7 +172,8 @@
         "entity.name.function",
         "entity.name.type",
         "entity.other.attribute-name",
-        "meta.export.default"
+        "meta.export.default",
+        "variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#f5aaff"
