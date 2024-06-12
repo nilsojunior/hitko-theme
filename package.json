@@ -2,7 +2,7 @@
   "name": "hitko-theme",
   "displayName": "Hitko Theme",
   "description": "A minimal theme for VS Code.",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "publisher": "Hitko",
   "icon": "icon.jpeg",
   "repository": {

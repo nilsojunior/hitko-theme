@@ -141,6 +141,7 @@
         "keyword.control",
         "keyword.operator.delete",
         "keyword.operator.bitwise",
+        "keyword.operator.expression",
         "storage.type",
         "storage.modifier",
         "meta.using-namespace",
