@@ -97,13 +97,17 @@
     {
       "scope": [
         "punctuation.definition.tag",
+        "support.type.property-name.json",
+        "meta.paragraph"
       ],
       "settings": {
         "foreground": "#ffffff"
       }
     },
     {
-      "scope": [],
+      "scope": [
+        "constant.language"
+      ],
       "settings": {
         "foreground": "#ffc79f"
       }
@@ -114,7 +118,6 @@
         "keyword",
         "keyword.operator.new",
         "punctuation.separator.pointer-access",
-        "punctuation.separator",
         "markup.bold"
       ],
       "settings": {
