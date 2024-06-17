@@ -12,7 +12,7 @@ A minimal theme for VS Code.
 
 ## Installation
 
-1. Install theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=Hitko.hitko-theme)
+1. Install theme from the [Marketplace](https://marketplaPce.visualstudio.com/items?itemName=Hitko.hitko-theme)
 2. Go to `File > Preferences > Color Theme`
 3. Select `Hitko Theme`
 

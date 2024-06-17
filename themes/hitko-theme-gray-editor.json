@@ -98,7 +98,7 @@
       "scope": [
         "punctuation.definition.tag",
         "support.type.property-name.json",
-        "meta.paragraph"
+        "text.html.markdown"
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -106,7 +106,8 @@
     },
     {
       "scope": [
-        "constant.language"
+        "constant.language",
+        "markup.bold"
       ],
       "settings": {
         "foreground": "#ffc79f"
@@ -118,7 +119,8 @@
         "keyword",
         "keyword.operator.new",
         "punctuation.separator.pointer-access",
-        "markup.bold"
+        "punctuation.separator.key-value", // HTML =
+        "markup.underline.link"
       ],
       "settings": {
         "foreground": "#9df8ff"
