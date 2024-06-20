@@ -98,7 +98,8 @@
       "scope": [
         "punctuation.definition.tag",
         "support.type.property-name.json",
-        "text.html.markdown"
+        "text.html.markdown",
+        "variable.other.local"
       ],
       "settings": {
         "foreground": "#ffffff"
