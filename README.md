@@ -4,7 +4,7 @@
 
 # Hitko Theme
 
-A minimal theme for VS Code.
+A minimal theme for VSCode.
 
 ![preview](preview.png)
 
